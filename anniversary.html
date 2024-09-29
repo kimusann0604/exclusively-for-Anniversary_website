@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ログイン画面</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <h2>ログイン </h2>
+            <form>
+                <div class="form-group">
+                    <label for="nickname">ニックネーム</label>
+                    <input type="text" id="nickname" name="nickname" required>
+                    <input type="checkbox" id="remember-nickname">
+                    <label for="remember-nickname">自動保存</label>
+                </div>
+                <div class="form-group">
+                    <label for="password">パスワード（記念日を入力してください）</label>
+                    <input type="password" id="password" name="password" required>
+                    <input type="checkbox" id="remember-password">
+                    <label for="remember-password">自動保存</label>
+                    <a href="#">パスワードを忘れた方はこちら</a>
+                </div>
+                <button type="submit">動画を見る(ログイン)</button>
+            </form>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
